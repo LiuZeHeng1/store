@@ -5,7 +5,5 @@ public class Second {
         System.out.println("hello second");
 
         //这段文字没得什么用
-        开始报错吧!!!
-
     }
 }
