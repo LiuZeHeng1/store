@@ -19,5 +19,7 @@ public class FirstClass {
         System.out.println("i值:"+i);
 
         System.out.println("i的值是:"+i+"20");
+
+        System.out.println("在Second类进行了修改");
     }
 }
