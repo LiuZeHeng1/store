@@ -27,6 +27,8 @@ public class TestArray {
         myArray.delete(0);
         myArray.display();
 
+        //根据
+
 
 
     }

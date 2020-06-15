@@ -98,6 +98,7 @@ public class MyArray {
                 for (int j = i; j < elements ; j++) {
                     arr[j] = arr[j+1];
                 }
+                elements--;
                 flag = true;
             }
         }

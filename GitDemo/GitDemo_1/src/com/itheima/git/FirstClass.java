@@ -8,8 +8,6 @@ public class FirstClass {
         System.out.println("hell git project");
         System.out.println("hell git project");
         System.out.println("hell  git project");
-
-
     }
 
 
