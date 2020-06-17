@@ -35,6 +35,9 @@ public class MyQueue {
      * 添加数据  从队尾加入
      */
     public void insert(long value){
+        if (end == arr.length-1){
+            end = -1;
+        }
         arr[++end] = value;
         elements++;
     }
@@ -43,9 +46,14 @@ public class MyQueue {
      * 删除数据  从队头删除
      */
     public long remove(){
+        long value = arr[strat++];
+        if (strat == arr.length){
+            strat = 0;
+        }
         elements--;
-        return arr[strat--];
+        return value;
     }
+
 
     /**
      * 查看数据 从队头查看
